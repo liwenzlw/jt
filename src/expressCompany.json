@@ -1,0 +1,49 @@
+ 
+{
+    "status": "0",
+    "msg": "ok",
+    "result": [
+        {
+            "name": "安信达",
+            "type": "ANXINDA",
+            "letter": "A",
+            "tel": "",
+            "number": ""
+        },
+        {
+            "name": "AAE",
+            "type": "AAEWEB",
+            "letter": "A",
+            "tel": "400-6100-400",
+            "number": "150502359"
+        },
+        {
+            "name": "安捷",
+            "type": "ANJELEX",
+            "letter": "A",
+            "tel": "400-056-5656",
+            "number": "AN21981331"
+        },
+        {
+            "name": "百福东方",
+            "type": "EES",
+            "letter": "B",
+            "tel": "010-84722171/72/73",
+            "number": "108341481"
+        },
+        {
+            "name": "德邦",
+            "type": "DEPPON",
+            "letter": "D",
+            "tel": "400-830-5555 021-31350884",
+            "number": "101117269"
+        },
+        {
+            "name": "DPEX",
+            "type": "DPEX",
+            "letter": "D",
+            "tel": "0755-88297707",
+            "number": ""
+        }
+    ]
+}
