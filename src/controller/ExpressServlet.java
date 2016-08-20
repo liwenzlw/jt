@@ -32,7 +32,7 @@ public class ExpressServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.setCharacterEncoding("utf-8");
-		resp.setContentType("text/html;charset=utf-8");
+		resp.setContentType("application/Json;charset=utf-8");
 		resp.addHeader("Access-Control-Allow-Origin", "*");
 		resp.addHeader("Access-Control-Allow-Methods", "POST");
 		resp.addHeader("Access-Control-Max-Age", "1000");

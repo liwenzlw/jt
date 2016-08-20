@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringReader;
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
@@ -40,8 +41,14 @@ public class ExpressServiceImpl implements ExpressService {
 			errorJson.put("errMsg", "快递单号不存在");
 			data = errorJson.toJSONString();
 		} else {
-			InputStreamReader ir = new InputStreamReader(
-					getClass().getClassLoader().getResourceAsStream("express.json"));
+			InputStreamReader ir = null;
+			try {
+				ir = new InputStreamReader(
+						getClass().getClassLoader().getResourceAsStream("express.json"),"utf-8");
+			} catch (UnsupportedEncodingException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			BufferedReader br = new BufferedReader(ir);
 			StringBuilder sb = new StringBuilder();
 			while (true) {
@@ -100,8 +107,14 @@ public class ExpressServiceImpl implements ExpressService {
 		
 		
 		
-		InputStreamReader ir = new InputStreamReader(
-				getClass().getClassLoader().getResourceAsStream("expressCompany.json"));
+		InputStreamReader ir = null;
+		try {
+			ir = new InputStreamReader(
+					getClass().getClassLoader().getResourceAsStream("expressCompany.json"),"utf-8");
+		} catch (UnsupportedEncodingException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		BufferedReader br = new BufferedReader(ir);
 		StringBuilder sb = new StringBuilder();
 		while (true) {
