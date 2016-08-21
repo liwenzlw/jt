@@ -1,4 +1,4 @@
-package service;
+package com.ethink.third.express.service;
 
 /**
  * 查询快递数据服务

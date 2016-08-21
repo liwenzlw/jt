@@ -1,4 +1,4 @@
-package bean;
+package com.ethink.third.express.bean;
 
 import java.util.List;
 

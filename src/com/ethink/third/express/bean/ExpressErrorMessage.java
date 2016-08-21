@@ -1,4 +1,4 @@
-package bean;
+package com.ethink.third.express.bean;
 
 /**
  * 快递接口查询出错信息抽象

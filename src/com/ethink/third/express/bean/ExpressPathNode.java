@@ -1,4 +1,4 @@
-package bean;
+package com.ethink.third.express.bean;
 
 /**
  * 快递运送过程的节点信息抽象

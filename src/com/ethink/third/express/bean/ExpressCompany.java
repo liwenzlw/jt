@@ -1,4 +1,4 @@
-package bean;
+package com.ethink.third.express.bean;
 
 /**
  * 快递公司的抽象
